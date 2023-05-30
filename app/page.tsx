@@ -1,7 +1,14 @@
-import Image from 'next/image'
+
+import Page from './card_awal';
+import Navbar from './navbar';
 
 export default function Home() {
   return (
-    <h1>home</h1>
+    <div>
+      <Navbar />
+      <Page />
+    </div>
+    
+    
   )
 }
